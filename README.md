@@ -20,11 +20,28 @@
 </div>
 
 ##  1. Giới thiệu
-    Đề tài “Gửi tin nhắn Broadcast qua UDP” nhằm nghiên cứu và xây dựng chương trình truyền tin trong mạng LAN bằng giao thức UDP với chế độ broadcast.  
+Đề tài “Gửi tin nhắn Broadcast qua UDP” nhằm nghiên cứu và xây dựng chương trình truyền tin trong mạng LAN bằng giao thức UDP với chế độ broadcast.
 
-    Trong mô hình này, một máy tính có thể gửi một gói tin đến **tất cả các thiết bị trong cùng mạng LAN** mà không cần biết địa chỉ IP cụ thể của từng máy. Điều này giúp việc **truyền thông điệp nhanh chóng và tiện lợi**, đặc biệt hữu ích trong các tình huống như:  
+Trong mô hình này, một máy tính có thể gửi một gói tin đến **tất cả các thiết bị trong cùng mạng LAN** mà không cần biết địa chỉ IP cụ thể của từng máy. Điều này giúp việc **truyền thông điệp nhanh chóng và tiện lợi**, đặc biệt hữu ích trong các tình huống như:  
 - Gửi thông báo hệ thống cho nhiều người dùng.  
 - Ứng dụng chat nội bộ trong mạng LAN.  
 - Tự động phát hiện dịch vụ (service discovery).  
 ##  2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
----
+Để xây dựng chương trình gửi và nhận tin nhắn Broadcast qua UDP, em lựa chọn sử dụng ngôn ngữ Java vì đây là một ngôn ngữ lập trình phổ biến, hỗ trợ tốt cho lập trình mạng và có thể chạy đa nền tảng. Java cung cấp sẵn các lớp trong gói java.net như DatagramSocket, DatagramPacket, InetAddress… giúp lập trình viên dễ dàng tạo socket UDP, thiết lập chế độ broadcast và truyền/nhận dữ liệu trong mạng LAN. Việc cài đặt môi trường phát triển được thực hiện trên Eclipse IDE – một công cụ mạnh mẽ, trực quan, hỗ trợ quá trình biên dịch, chạy và kiểm thử chương trình. Nhờ đó, việc phát triển và triển khai ứng dụng trở nên thuận tiện và hiệu quả hơn.--
+## 3. Các project đã thực hiện
+Trong quá trình nghiên cứu và triển khai đề tài “Gửi tin nhắn Broadcast qua UDP”, em đã xây dựng và thử nghiệm một số project sau:
+
+**1.Ứng dụng gửi thông báo trong mạng LAN**
+- Cho phép một máy chủ gửi thông báo dạng văn bản đến toàn bộ các máy khách đang kết nối cùng mạng.
+- Các thông báo hiển thị ngay lập tức trên giao diện của người dùng.
+
+**2.Chương trình chat nội bộ (LAN Chat)**
+- Xây dựng ứng dụng chat đơn giản cho phép nhiều máy tính trao đổi tin nhắn với nhau mà không cần biết IP cụ thể.
+- Tin nhắn từ một máy sẽ được broadcast đến tất cả các máy còn lại.
+  
+**3.Ứng dụng phát hiện dịch vụ (Service Discovery)**
+- Các máy tính trong mạng LAN tự động gửi gói tin broadcast để thông báo sự hiện diện.
+- Nhờ đó, các thiết bị khác trong mạng có thể dễ dàng phát hiện và kết nối dịch vụ.
+
+**4.Hệ thống demo thông báo sự kiện**
+- Tạo ứng dụng mô phỏng việc gửi thông báo sự kiện (ví dụ: cảnh báo, nhắc nhở) từ server đến nhiều client trong lớp học hoặc văn phòng.
