@@ -19,16 +19,16 @@
 
 </div>
 
-##  1. Giới thiệu
+## 📖 1. Giới thiệu
 Đề tài “Gửi tin nhắn Broadcast qua UDP” nhằm nghiên cứu và xây dựng chương trình truyền tin trong mạng LAN bằng giao thức UDP với chế độ broadcast.
 
 Trong mô hình này, một máy tính có thể gửi một gói tin đến **tất cả các thiết bị trong cùng mạng LAN** mà không cần biết địa chỉ IP cụ thể của từng máy. Điều này giúp việc **truyền thông điệp nhanh chóng và tiện lợi**, đặc biệt hữu ích trong các tình huống như:  
 - Gửi thông báo hệ thống cho nhiều người dùng.  
 - Ứng dụng chat nội bộ trong mạng LAN.  
 - Tự động phát hiện dịch vụ (service discovery).  
-##  2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 Để xây dựng chương trình gửi và nhận tin nhắn Broadcast qua UDP, em lựa chọn sử dụng ngôn ngữ Java vì đây là một ngôn ngữ lập trình phổ biến, hỗ trợ tốt cho lập trình mạng và có thể chạy đa nền tảng. Java cung cấp sẵn các lớp trong gói java.net như DatagramSocket, DatagramPacket, InetAddress… giúp lập trình viên dễ dàng tạo socket UDP, thiết lập chế độ broadcast và truyền/nhận dữ liệu trong mạng LAN. Việc cài đặt môi trường phát triển được thực hiện trên Eclipse IDE – một công cụ mạnh mẽ, trực quan, hỗ trợ quá trình biên dịch, chạy và kiểm thử chương trình. Nhờ đó, việc phát triển và triển khai ứng dụng trở nên thuận tiện và hiệu quả hơn.--
-## 3. Các project đã thực hiện
+## 🚀 3. Các project đã thực hiện
 Trong quá trình nghiên cứu và triển khai đề tài “Gửi tin nhắn Broadcast qua UDP”, em đã xây dựng và thử nghiệm một số project sau:
 
 **1.Ứng dụng gửi thông báo trong mạng LAN**
