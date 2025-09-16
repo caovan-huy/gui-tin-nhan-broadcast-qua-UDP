@@ -33,5 +33,19 @@ Trong mô hình này, một máy tính có thể gửi một gói tin đến **t
 - **IDE:** Eclipse  
 ## 🚀 3. Hình ảnh các chức năng
 <p align="center">
-  <img src="images/anh 1.jpg" alt="Ảnh 1" width="800"/>
+  <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/>
 </p>
+<p align = "center">Hình 1: Giao diện server </p>
+
+ <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/>
+</p>
+
+
+
+
+
+
+
+
+
+
