@@ -32,5 +32,5 @@ Trong mô hình này, một máy tính có thể gửi một gói tin đến **t
 - **Giao thức mạng:** UDP (User Datagram Protocol)  
 - **IDE:** Eclipse  
 ## 🚀 3. Hình ảnh các chức năng
-p align = "center"><img width="604" height="487" alt="image" src="https://github.com/user-attachments/assets/532f6192-8716-4fb3-8720-c859e4b560bb" /></p>
+<p align = "center" <img width="604" height="487" alt="image" src="[https://github.com/user-attachments/assets/532f6192-8716-4fb3-8720-c859e4b560bb](https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/Screenshot%202025-09-16%20203441.png)" /></p>
 <p align = "center">Hình 1: Giao diện server </p>
