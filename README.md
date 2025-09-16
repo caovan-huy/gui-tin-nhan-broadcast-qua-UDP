@@ -20,12 +20,13 @@
 </div>
 
 ## 📖 1. Giới thiệu
-Đề tài “Gửi tin nhắn Broadcast qua UDP” nhằm nghiên cứu và xây dựng chương trình truyền tin trong mạng LAN bằng giao thức UDP với chế độ broadcast.
+Trong thời đại công nghệ thông tin phát triển mạnh mẽ, việc truyền tải dữ liệu nhanh chóng và hiệu quả giữa các thiết bị trong mạng máy tính ngày càng trở nên quan trọng. Một trong những phương thức được sử dụng phổ biến để gửi dữ liệu trong mạng cục bộ (LAN) là gửi tin nhắn broadcast qua giao thức UDP (User Datagram Protocol).
 
-Trong mô hình này, một máy tính có thể gửi một gói tin đến **tất cả các thiết bị trong cùng mạng LAN** mà không cần biết địa chỉ IP cụ thể của từng máy. Điều này giúp việc **truyền thông điệp nhanh chóng và tiện lợi**, đặc biệt hữu ích trong các tình huống như:  
-- Gửi thông báo hệ thống cho nhiều người dùng.  
-- Ứng dụng chat nội bộ trong mạng LAN.  
-- Tự động phát hiện dịch vụ (service discovery).  
+Broadcast là kỹ thuật truyền dữ liệu từ một thiết bị tới tất cả các thiết bị khác trong cùng mạng mà không cần xác định địa chỉ cụ thể của từng máy. Kết hợp với UDP – một giao thức hướng datagram, không kết nối, nhẹ và có tốc độ xử lý nhanh – việc gửi tin nhắn broadcast mang lại khả năng truyền thông tin tức thời, thuận tiện và tiết kiệm tài nguyên hệ thống.
+
+Đề tài **Gửi tin nhắn broadcast qua UDP** được lựa chọn nhằm tìm hiểu cơ chế hoạt động của giao thức UDP, cách triển khai việc gửi và nhận tin nhắn trên môi trường mạng, cũng như xây dựng một ứng dụng nhỏ minh họa chức năng này. Qua đó, đề tài giúp người học củng cố kiến thức về mạng máy tính, lập trình socket, đồng thời có thể áp dụng vào các ứng dụng thực tế như chat trong mạng LAN, thông báo hệ thống hoặc các ứng dụng giám sát và điều khiển từ xa.
+
+Với tính đơn giản, hiệu quả và khả năng mở rộng, việc nghiên cứu gửi tin nhắn broadcast qua UDP không chỉ mang tính học tập mà còn có giá trị thực tiễn trong phát triển các hệ thống truyền thông nhanh gọn và hiệu quả.  
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 - **Language setting** Java (JDK)
 - **Giao diện:** Java Swing  
@@ -33,12 +34,70 @@ Trong mô hình này, một máy tính có thể gửi một gói tin đến **t
 - **IDE:** Eclipse  
 ## 🚀 3. Hình ảnh các chức năng
 <p align="center">
-  <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/>
+  <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/> 
 </p>
-<p align = "center">Hình 1: Giao diện server </p>
+<p align = "center">Ảnh 1: Giao diện Server </p>
 
- <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/>
-</p>
+ <p align = "center"><img width="450" height="262" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%202.png" /></p>
+<p align = "center"> Ảnh 2: Giao diên nhập IP Server </p>
+<p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%203.png" /></p>
+<p align = "center"> Ảnh 3: Giao diện Client </p>
+
+## 📦4. Các bước cài 
+### Yêu cầu hệ 
+- Eclipse IDE (khuyến nghị bản mới nhất)
+- JDK 21 hoặc cao hơn
+- Git đã cài trên máy
+
+Bước 1: Clone project từ GitHub
+```bash
+git clone https://github.com/caovan-/Gui-tin-nhan-broadcast-qua-UDP.git
+```
+Bước 2: Import project vào Eclipse
+
+- Mở Eclipse
+- Vào File → Import
+- Chọn Existing Projects into Workspace
+- Chọn thư mục project vừa clone về
+- Nhấn Finish
+
+Bước 3: Kiểm tra môi trường
+
+- Đảm bảo project chạy trên JavaSE-21 (hoặc phiên bản JDK bạn đã cài).
+- Nếu thiếu thư viện, vào Project → Properties → Java Build Path để thêm JDK phù hợp.
+
+Bước 4: Chạy ứng dụng
+
+- Mở class UDPSeverChat → Run để khởi động server.
+- Mở class UDPClientChat → Run để khởi động client.
+
+Bước 5: Gửi và nhận tin nhắn
+
+- Nhập nội dung tin nhắn → nhấn Gửi
+- Tất cả client khác trong cùng mạng LAN sẽ nhận được tin nhắn broadcast.
+- Có thể ấn "Stop Server/ Stop Client" để đóng đoạn chat
+##  📱5. Liên hệ
+- Họ và tên: Cao Văn Huy
+- Lớp: CNTT 16-
+- 📧 huyhechbn@gmail.com
+- ☎️ 0964611204
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
