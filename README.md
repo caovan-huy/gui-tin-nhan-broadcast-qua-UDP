@@ -31,7 +31,7 @@ Trong mô hình này, một máy tính có thể gửi một gói tin đến **t
 - **Giao diện:** Java Swing  
 - **Giao thức mạng:** UDP (User Datagram Protocol)  
 - **IDE:** Eclipse  
-## 🚀 3. Các project đã thực hiện
+## 🚀 3. Hình ảnh các chức năng
 Trong quá trình nghiên cứu và triển khai đề tài “Gửi tin nhắn Broadcast qua UDP”, em đã xây dựng và thử nghiệm một số project sau:
 
 **1.Ứng dụng gửi thông báo trong mạng LAN**
