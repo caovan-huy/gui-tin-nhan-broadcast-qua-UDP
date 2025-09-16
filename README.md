@@ -32,19 +32,5 @@ Trong mô hình này, một máy tính có thể gửi một gói tin đến **t
 - **Giao thức mạng:** UDP (User Datagram Protocol)  
 - **IDE:** Eclipse  
 ## 🚀 3. Hình ảnh các chức năng
-Trong quá trình nghiên cứu và triển khai đề tài “Gửi tin nhắn Broadcast qua UDP”, em đã xây dựng và thử nghiệm một số project sau:
-
-**1.Ứng dụng gửi thông báo trong mạng LAN**
-- Cho phép một máy chủ gửi thông báo dạng văn bản đến toàn bộ các máy khách đang kết nối cùng mạng.
-- Các thông báo hiển thị ngay lập tức trên giao diện của người dùng.
-
-**2.Chương trình chat nội bộ (LAN Chat)**
-- Xây dựng ứng dụng chat đơn giản cho phép nhiều máy tính trao đổi tin nhắn với nhau mà không cần biết IP cụ thể.
-- Tin nhắn từ một máy sẽ được broadcast đến tất cả các máy còn lại.
-  
-**3.Ứng dụng phát hiện dịch vụ (Service Discovery)**
-- Các máy tính trong mạng LAN tự động gửi gói tin broadcast để thông báo sự hiện diện.
-- Nhờ đó, các thiết bị khác trong mạng có thể dễ dàng phát hiện và kết nối dịch vụ.
-
-**4.Hệ thống demo thông báo sự kiện**
-- Tạo ứng dụng mô phỏng việc gửi thông báo sự kiện (ví dụ: cảnh báo, nhắc nhở) từ server đến nhiều client trong lớp học hoặc văn phòng.
+p align = "center"><img width="604" height="487" alt="image" src="https://github.com/user-attachments/assets/532f6192-8716-4fb3-8720-c859e4b560bb" /></p>
+<p align = "center">Hình 1: Giao diện server </p>
