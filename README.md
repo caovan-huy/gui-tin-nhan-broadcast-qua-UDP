@@ -49,7 +49,7 @@ Hệ thống này có ưu điểm là:
 <p align = "center">Ảnh 1: Giao diện Server </p>
 
  <p align = "center"><img width="450" height="262" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%202.png" /></p>
-<p align = "center"> Ảnh 2: Giao diên nhập IP Server </p>
+<p align = "center"> Ảnh 2: Giao diện nhập IP Server </p>
 <p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%203.png" /></p>
 <p align = "center"> Ảnh 3: Giao diện Client </p>
 
@@ -83,7 +83,7 @@ Bước 4: Chạy ứng dụng
 
 Bước 5: Gửi và nhận tin nhắn
 
-- Nhập nội dung tin nhắn → nhấn Gửi
+- Nhập nội dung tin nhắn → nhấn "Gửi"
 - Tất cả client khác trong cùng mạng LAN sẽ nhận được tin nhắn broadcast.
 - Có thể ấn "Stop Server/ Stop Client" để đóng đoạn chat
 ##  📱5. Liên hệ
