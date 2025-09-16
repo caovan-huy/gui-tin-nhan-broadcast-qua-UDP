@@ -49,9 +49,9 @@ Với tính đơn giản, hiệu quả và khả năng mở rộng, việc nghi�
 - JDK 21 hoặc cao hơn
 - Git đã cài trên máy
 
-Bước 1: Clone project từ GitHub
+Bước 1: Chọn project từ GitHub
 ```bash
-https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/tree/main)
+https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/tree/main/Bai_Tap_Lon
 ```
 Bước 2: Import project vào Eclipse
 
