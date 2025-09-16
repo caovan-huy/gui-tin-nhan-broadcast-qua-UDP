@@ -20,13 +20,23 @@
 </div>
 
 ## 📖 1. Giới thiệu
-Trong thời đại công nghệ thông tin phát triển mạnh mẽ, việc truyền tải dữ liệu nhanh chóng và hiệu quả giữa các thiết bị trong mạng máy tính ngày càng trở nên quan trọng. Một trong những phương thức được sử dụng phổ biến để gửi dữ liệu trong mạng cục bộ (LAN) là gửi tin nhắn broadcast qua giao thức UDP (User Datagram Protocol).
+Hệ thống gửi tin nhắn broadcast qua UDP là một ứng dụng mô phỏng việc truyền thông tin trong mạng cục bộ (LAN) bằng cách sử dụng giao thức UDP kết hợp với kỹ thuật broadcast. Hệ thống được thiết kế với hai thành phần chính: **Server** và **Client**.
 
-Broadcast là kỹ thuật truyền dữ liệu từ một thiết bị tới tất cả các thiết bị khác trong cùng mạng mà không cần xác định địa chỉ cụ thể của từng máy. Kết hợp với UDP – một giao thức hướng datagram, không kết nối, nhẹ và có tốc độ xử lý nhanh – việc gửi tin nhắn broadcast mang lại khả năng truyền thông tin tức thời, thuận tiện và tiết kiệm tài nguyên hệ thống.
+- **Server** có nhiệm vụ lắng nghe các gói tin được gửi đến, hiển thị nội dung tin nhắn và phản hồi cho các máy trong cùng mạng.
 
-Đề tài **Gửi tin nhắn broadcast qua UDP** được lựa chọn nhằm tìm hiểu cơ chế hoạt động của giao thức UDP, cách triển khai việc gửi và nhận tin nhắn trên môi trường mạng, cũng như xây dựng một ứng dụng nhỏ minh họa chức năng này. Qua đó, đề tài giúp người học củng cố kiến thức về mạng máy tính, lập trình socket, đồng thời có thể áp dụng vào các ứng dụng thực tế như chat trong mạng LAN, thông báo hệ thống hoặc các ứng dụng giám sát và điều khiển từ xa.
+- **Client** cho phép người dùng nhập nội dung tin nhắn và gửi đi. Tin nhắn này sẽ được broadcast đến tất cả các thiết bị trong mạng LAN đang chạy ứng dụng.
 
-Với tính đơn giản, hiệu quả và khả năng mở rộng, việc nghiên cứu gửi tin nhắn broadcast qua UDP không chỉ mang tính học tập mà còn có giá trị thực tiễn trong phát triển các hệ thống truyền thông nhanh gọn và hiệu quả.  
+Nguyên lý hoạt động của hệ thống dựa trên đặc điểm của UDP – một giao thức không kết nối, tốc độ xử lý nhanh và đơn giản. Khi người dùng gửi một gói tin dưới dạng broadcast, gói tin đó sẽ được gửi đến địa chỉ quảng bá (broadcast address) và tất cả các máy tính trong mạng sẽ có thể nhận được.
+
+Hệ thống này có ưu điểm là:
+
+- Đơn giản, dễ triển khai, không đòi hỏi kết nối phức tạp.
+
+- Truyền tải nhanh, phù hợp với các ứng dụng cần thông báo tức thời.
+
+- Minh họa rõ ràng kiến thức về socket lập trình mạng và cơ chế hoạt động của UDP.
+
+Ứng dụng có thể được áp dụng trong thực tế để xây dựng các chương trình chat nội bộ, gửi thông báo trong mạng LAN, hoặc các công cụ quản trị hệ thống.
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 - **Language setting** Java (JDK)
 - **Giao diện:** Java Swing  
