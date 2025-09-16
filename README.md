@@ -38,7 +38,7 @@ Hệ thống này có ưu điểm là:
 
 Ứng dụng có thể được áp dụng trong thực tế để xây dựng các chương trình chat nội bộ, gửi thông báo trong mạng LAN, hoặc các công cụ quản trị hệ thống.
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-- **Language setting** Java (JDK)
+- **Language setting:** Java (JDK)
 - **Giao diện:** Java Swing  
 - **Giao thức mạng:** UDP (User Datagram Protocol)  
 - **IDE:** Eclipse  
