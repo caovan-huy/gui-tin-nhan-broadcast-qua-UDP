@@ -51,7 +51,7 @@ Với tính đơn giản, hiệu quả và khả năng mở rộng, việc nghi�
 
 Bước 1: Clone project từ GitHub
 ```bash
-git clone https://github.com/caovan-/Gui-tin-nhan-broadcast-qua-UDP.git
+https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/tree/main)
 ```
 Bước 2: Import project vào Eclipse
 
