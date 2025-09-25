@@ -46,13 +46,16 @@ Hệ thống này có ưu điểm là:
 <p align="center">
   <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/> 
 </p>
-<p align = "center">Ảnh 1: Giao diện Server </p>
+<p align = "center">Ảnh 1: Giao diện Client </p>
 
- <p align = "center"><img width="450" height="262" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%202.png" /></p>
-<p align = "center"> Ảnh 2: Giao diện nhập IP Server </p>
+ <p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%202.png" /></p>
+<p align = "center"> Ảnh 2: Giao diện Server </p>
 <p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%203.png" /></p>
-<p align = "center"> Ảnh 3: Giao diện Client </p>
-
+<p align = "center"> Ảnh 3: Thông báo Client đã kết nối với Server </p>
+<p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%205.png" /></p>
+<p align = "center"> Ảnh 4: Client nhắn tin với Server </p>
+<p align = "center"><img width="660" height="530" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%206.png" /></p>
+<p align = "center"> Ảnh 5: Thông báo khi dừng chat giữa Client với Server </p>
 ## 📦4. Các bước cài 
 ### Yêu cầu hệ 
 - Eclipse IDE (khuyến nghị bản mới nhất)
