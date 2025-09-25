@@ -56,8 +56,9 @@ Hệ thống này có ưu điểm là:
 <p align = "center"> Ảnh 4: Client nhắn tin với Server </p>
 <p align = "center"><img width="660" height="530" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%206.png" /></p>
 <p align = "center"> Ảnh 5: Thông báo khi dừng chat giữa Client với Server </p>
-## 📦4. Các bước cài 
-### Yêu cầu hệ 
+
+## 📦4. Các bước cài đặt
+### Yêu cầu hệ thống
 - Eclipse IDE (khuyến nghị bản mới nhất)
 - JDK 21 hoặc cao hơn
 - Git đã cài trên máy
@@ -91,7 +92,7 @@ Bước 5: Gửi và nhận tin nhắn
 - Có thể ấn "Stop Server/ Stop Client" để đóng đoạn chat
 ##  📱5. Liên hệ
 - Họ và tên: Cao Văn Huy
-- Lớp: CNTT 16-
+- Lớp: CNTT 16-03
 - 📧 huyhechbn@gmail.com
 - ☎️ 0964611204
 
