@@ -44,18 +44,14 @@ Hệ thống này có ưu điểm là:
 - **IDE "Eclipse":** Quá trình viết code và phát triển ứng dụng được thực hiện trên **Eclipse IDE**, một môi trường phát triển tích hợp phổ biến, hỗ trợ đầy đủ tính năng như quản lý project, tự động gợi ý cú pháp, debug, và tích hợp với nhiều thư viện ngoài. Eclipse giúp lập trình viên thuận tiện hơn trong việc triển khai, kiểm thử và bảo trì ứng dụng.  
 ## 🚀 3. Hình ảnh các chức năng
 <p align="center">
-  <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%201.png" alt="Ảnh 1" width="800"/> 
+  <img width="604" height="487" img src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh_1.png" alt="Ảnh 1" width="800"/> 
 </p>
-<p align = "center">Ảnh 1: Giao diện Client </p>
+<p align = "center">Ảnh 1: Giao diện Sender  </p>
 
- <p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%202.png" /></p>
-<p align = "center"> Ảnh 2: Giao diện Server </p>
-<p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%203.png" /></p>
-<p align = "center"> Ảnh 3: Thông báo Client đã kết nối với Server </p>
-<p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%205.png" /></p>
-<p align = "center"> Ảnh 4: Client nhắn tin với Server </p>
-<p align = "center"><img width="660" height="530" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh%206.png" /></p>
-<p align = "center"> Ảnh 5: Thông báo khi dừng chat giữa Client với Server </p>
+ <p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh_2.png" /></p>
+<p align = "center"> Ảnh 2: Giao diện Receiver </p>
+<p align = "center"><img width="604" height="487" alt="image" src="https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/blob/main/docs/anh_3.png" /></p>
+<p align = "center"> Ảnh 3: Xuất CSV </p>
 
 ## 📦4. Các bước cài đặt
 ### Yêu cầu hệ thống
@@ -65,7 +61,7 @@ Hệ thống này có ưu điểm là:
 
 Bước 1: Chọn project từ GitHub
 ```bash
-https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/tree/main/Bai_Tap_Lon
+https://github.com/caovan-huy/gui-tin-nhan-broadcast-qua-UDP/tree/main/UDP_BROADCAST1
 ```
 Bước 2: Import project vào Eclipse
 
